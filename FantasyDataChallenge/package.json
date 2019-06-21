@@ -1,0 +1,9 @@
+{
+  "name": "fantasy-data-challenge",
+  "version": "0.0.0",
+  "description": "FantasyDataChallenge",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}
