@@ -19,6 +19,8 @@ class Deck {
         this.shuffle();
     }
 
+
+    // resets the deck to 52 cards
     reset() {
         this.deck = [];
 
@@ -34,6 +36,8 @@ class Deck {
         console.log('A new deck has been created!')
     }
 
+
+    // shuffles the deck
     shuffle() {
         const { deck } = this;
         let m = deck.length, i;
@@ -48,11 +52,13 @@ class Deck {
         return this;
     }
 
+    // draws a card from the deck
     draw() {
         const drawnCard = this.deck.pop();
         console.log('You drew the ' + drawnCard.rank + ' of ' + drawnCard.suit);
     }
 
+    // displays the remaining cards from the deck
     display() {
         console.log('The cards left in the deck are:')
         for (let x = 0; x < this.deck.length; x++) {
